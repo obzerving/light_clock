@@ -23,14 +23,15 @@ The user enters the time in the format indicated and the program responds with t
 
 The program then prints out the current seven-day schedule and prompts for changing it (Note that the following is the default schedule).
 
-> Day             Red On  Yellow On       Green On        Green Off   
-> Sunday          6:00    6:50            7:00            7:15   
-> Monday          6:00    6:50            7:00            7:15   
-> Tuesday         6:00    6:50            7:00            7:15   
-> Wednesday       6:00    6:50            7:00            7:15   
-> Thursday        6:00    6:50            7:00            7:15   
-> Friday          6:00    6:50            7:00            7:15   
-> Saturday        6:00    6:50            7:00            7:15   
+<code>
+Day             Red On  Yellow On       Green On        Green Off   
+Sunday          6:00    6:50            7:00            7:15   
+Monday          6:00    6:50            7:00            7:15   
+Tuesday         6:00    6:50            7:00            7:15   
+Wednesday       6:00    6:50            7:00            7:15   
+Thursday        6:00    6:50            7:00            7:15   
+Friday          6:00    6:50            7:00            7:15   
+Saturday        6:00    6:50            7:00            7:15   </code>
 Change Light Schedule (y/n/d)?
 
 If the program receives "y" it will issue prompts to change a particular day's schedule. For example,
@@ -39,14 +40,15 @@ Enter a day of the week to change (0=Sun, 1=Mon, etc)?
 1
 Enter on times for red, yellow, and green lights and off time for green light in minutes (HH:MN-HH:MN-HH:MN-HH:MN)?   
 14:50-14:51-14:52-14:53   
-> Day             Red On  Yellow On       Green On        Green Off   
+<code>
+Day             Red On  Yellow On       Green On        Green Off   
 Sunday          6:00    6:50            7:00            7:15   
 Monday          14:50   14:51           14:52           14:53   
 Tuesday         6:00    6:50            7:00            7:15   
 Wednesday       6:00    6:50            7:00            7:15   
 Thursday        6:00    6:50            7:00            7:15   
 Friday          6:00    6:50            7:00            7:15   
-Saturday        6:00    6:50            7:00            7:15   
+Saturday        6:00    6:50            7:00            7:15   </code>
 Change Light Schedule (y/n/d)? n
 
 If the program receives "d" it will set the schedule to the default. Upon receiving "n" the program will leave command mode and enter normal mode with the message:
